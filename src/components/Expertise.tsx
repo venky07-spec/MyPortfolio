@@ -5,39 +5,43 @@ import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons'
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
-const labelsFirst = [
-    "Java/J2EE",
-    "React",
-    "Angular",
-    "TypeScript",
-    "JavaScript",
-    ".NET Core",
-    "REST APIs",
-    "Microservices",
-    "Event-Driven Architecture"
+const labelsProductUX = [
+  "Go-to-market strategy",
+  "Value proposition",
+  "Gap analysis",
+  "Roadmap prioritization",
+  "Figma",
+  "Journey mapping",
+  "A/B testing",
+  "Usability"
 ];
 
-const labelsSecond = [
-    "AWS (Lambda, Step Functions)",
-    "Azure",
-    "Cloud-Native",
-    "CI/CD",
-    "DevSecOps",
-    "Camunda/BPMN",
-    "Kafka",
-    "DB2",
-    "Oracle",
-    "Graph Databases"
+const labelsArchCloud = [
+  "Microservices",
+  "CQRS",
+  "Domain-Driven Design",
+  "REST",
+  "PEGA PRPC",
+  "AWS (Lambda, ECS, S3, DynamoDB, SQS)",
+  "Docker",
+  "K8s",
+  "Jenkins",
+  "Terraform"
 ];
 
-const labelsThird = [
-    "GitHub Copilot",
-    "Cursor",
-    "AWS Bedrock",
-    "LangGraph",
-    "GenAI for SDLC",
-    "AI-Enabled Engineering",
-    "Agentic AI Workflows"
+const labelsAIData = [
+  "RAG",
+  "LLM",
+  "NLP",
+  "WEKA",
+  "Random Forest",
+  "K-means",
+  "Splunk",
+  "ELK",
+  "Grafana",
+  "Adobe Analytics",
+  "Tableau",
+  "SQL"
 ];
 
 function Expertise() {
@@ -48,11 +52,11 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full-Stack Engineering & Distributed Systems</h3>
-                    <p>22+ years of experience building high-throughput, regulated enterprise platforms. Expertise in microservices, REST APIs, API-first design, event-driven integration, and CQRS patterns. Strong background in Java/J2EE, React, Angular, and modern web technologies.</p>
+                    <h3>Product & UX</h3>
+                    <p>Product strategy, go-to-market, value proposition development, sales readiness, gap analysis, capability-fit, and roadmap prioritization. UX practice with Figma, journey mapping, A/B testing, and usability across digital, chat, and call-center channels.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
+                        {labelsProductUX.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
@@ -60,11 +64,11 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>Cloud Platforms & DevOps</h3>
-                    <p>Proven track record in AWS and Azure cloud-native transformation. Expertise in serverless architectures, workflow orchestration, CI/CD pipelines, and engineering excellence practices. Experience with hybrid/private cloud deployments and observability.</p>
+                    <h3>Architecture & Cloud</h3>
+                    <p>Microservices, CQRS, Domain-Driven Design, REST, and PEGA PRPC. Cloud-native delivery on AWS (Lambda, ECS, S3, DynamoDB, SQS), Docker, Kubernetes, Jenkins, and Terraform.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
+                        {labelsArchCloud.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
@@ -72,11 +76,11 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>AI-Enabled SDLC & GenAI</h3>
-                    <p>Pioneered embedding AI into the SDLC, improving engineering productivity by ~30%. Delivered agentic AI workflows for clinical assessments and adverse event reporting. Institutionalized GitHub Copilot and Cursor standards with guardrails for quality and compliance.</p>
+                    <h3>AI/ML & Data</h3>
+                    <p>RAG, LLM, NLP, WEKA, Random Forest, K-means for AI-powered workflows. Operational and product analytics with Splunk, ELK, Grafana, Adobe Analytics, Tableau, and SQL.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
+                        {labelsAIData.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>

@@ -16,62 +16,77 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - Present"
+            date="Jul 2017 – Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Director of Software Engineering</h3>
-            <h4 className="vertical-timeline-element-subtitle">Cigna – Accredo Specialty Pharmacy</h4>
-            <ul style={{marginTop: '10px', paddingLeft: '20px'}}>
-              <li>Lead platform strategy and delivery for omni-channel pharmacy applications in HIPAA-compliant environments</li>
-              <li>Drove CRM transformation from Pega to modern React and AWS serverless architecture (Lambda, Step Functions), redesigning order scheduling and reducing Average Handle Time (AHT) by 100+ seconds</li>
-              <li>Solved a 17-year order visibility challenge ("Where is my order") using event-driven integration and CQRS-style read/write models, reducing order-status handling time from ~9 minutes to ~3 minutes</li>
-              <li>Delivered agentic AI workflows for clinical assessments and adverse event (AE) reporting using AWS Bedrock and LangGraph-based orchestration, compressing end-to-end cycle time from days to hours with full auditability</li>
-              <li>Institutionalized AI-enabled SDLC practices using GitHub Copilot and Cursor, improving engineering productivity by ~30% while preserving quality and compliance</li>
-              <li>Modernized platform integrations using API-first and event-driven patterns (Kafka, MQ), enabling near real-time order visibility</li>
-              <li>Oversee $20M+ annual portfolio and lead 180+ engineers across onshore and offshore teams, managing scope, budget, dependencies, and risk</li>
+            <h3 className="vertical-timeline-element-title">Express Scripts — Accredo (Cigna Group)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Healthcare / Pharmacy Benefits</h4>
+
+            <h4 style={{ marginTop: '14px', fontStyle: 'italic', fontSize: '0.95em' }}>Software Development Senior Advisor / Product Strategist — CRM Replatforming & AI Initiatives (2023 – Present)</h4>
+            <ul style={{marginTop: '8px', paddingLeft: '20px'}}>
+              <li>Defined product vision, go-to-market strategy, and roadmap for replatforming the order-scheduling CRM from PEGA to AWS + React across 20+ repos; owned scope, sequencing, and success metrics.</li>
+              <li>Conducted product/capability-fit assessments; recommended Google Address API over custom build for address validation, saving build cost and improving PCA experience.</li>
+              <li>Mapped end-to-end patient and PCA journeys on FigJam across digital, chat, and call-center channels; identified handoff gaps and informed the design of a channel-agnostic order-scheduling experience.</li>
+              <li>Architected a harmonized data store to unify patient data across channels; enabled a consistent patient experience regardless of entry point (digital, chat, call center).</li>
+              <li>Designed high-fidelity Figma prototypes for the new order-scheduling experience; used AI tools (Cursor) to convert prototypes into a working app for rapid business feedback.</li>
+              <li>Used Adobe Analytics to build PCA clickstream journeys across CRM screens; identified process bottlenecks and screen-level friction points that informed UX redesign priorities.</li>
+              <li>Scoped an AI-driven RAG solution to automate adverse-event classification and outbound communication generation; replaced manual nurse review of 200-page manufacturer contracts, reducing review time and improving accuracy.</li>
+              <li>Built personas (PCA, patient, auth user, nurse, pharmacist) and designed persona-specific workflows and screen layouts for each user type.</li>
+              <li>Drove call-deflection strategies by promoting refill-by-text enrollment; launched PCA incentive campaigns to enroll patients in text-based refills, shifting volume from call center to digital channels.</li>
+              <li>Authored pitch decks and ROI business cases for operations and senior product leadership; delivered capability demos and playbacks to secure buy-in for the replatform, AI initiative, and digital-deflection campaigns.</li>
+              <li>Created SOPs in Confluence for PCAs and clinicians; built working prototypes and an AI-assisted helper forum to support operational readiness and training.</li>
+            </ul>
+
+            <h4 style={{ marginTop: '14px', fontStyle: 'italic', fontSize: '0.95em' }}>Software Development Engineer & Product Owner — CRM Call Center (2020 – 2023)</h4>
+            <ul style={{marginTop: '8px', paddingLeft: '20px'}}>
+              <li>Served as de-facto product owner and UX designer; gathered requirements from business/ops, defined product direction, and set quarterly feature priorities.</li>
+              <li>Maintained and prioritized the product backlog, facilitated PIPE events, sprint planning, and stakeholder demos; articulated value propositions to balance operational urgency with platform health.</li>
+              <li>Partnered with clinical partners to create clinical programs, offers, questionnaires, and surveys for clinicians; improved the pharmacist experience within the CRM platform.</li>
+              <li>Led quarterly feature development end-to-end—from requirements gathering through design, development, and release—across scheduling, clinical, and operational workflows.</li>
+              <li>Mentored a team of 5 developers on design patterns and code review standards while driving architectural decisions for the platform.</li>
+            </ul>
+
+            <h4 style={{ marginTop: '14px', fontStyle: 'italic', fontSize: '0.95em' }}>Programmer Analyst — PEGA CRM Order Scheduling (2017 – 2020)</h4>
+            <ul style={{marginTop: '8px', paddingLeft: '20px'}}>
+              <li>Built order-scheduling workflows and supporting intents (address, financial summary, Easy Fill, refill-by-text); met directly with operations and clients to define requirements.</li>
+              <li>Created Splunk and Tableau dashboards for operational insights and digital-deflection tracking; analysis identified automation opportunities saving $2–3M per initiative.</li>
+              <li>Developed logging frameworks and instrumentation across CRM flows; operational dashboards surfaced call-driver patterns that reduced average handle time (AHT) by 15 seconds.</li>
+              <li>Created REST connectors for external system integration; containerized PEGA PE images on Kubernetes for dev/staging environments.</li>
             </ul>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Aug 2013 – Aug 2015"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Senior Manager of Software Engineering</h3>
-            <h4 className="vertical-timeline-element-subtitle">Cigna – Accredo Specialty Pharmacy</h4>
+            <h3 className="vertical-timeline-element-title">Tata Consultancy Services — Vantiv</h3>
+            <h4 className="vertical-timeline-element-subtitle">Business Analyst & UX Designer — Fraud Management Platform (Financial Services)</h4>
             <ul style={{marginTop: '10px', paddingLeft: '20px'}}>
-              <li>Led end-to-end delivery of greenfield CRM initiative from ideation through production scale</li>
-              <li>Launched digital texting platform using Camunda/BPMN for prescription fills, driving call deflection and saving ~$5M annually</li>
-              <li>Managed Tier-1 production systems, reducing Sev-1 and Sev-2 incidents through monitoring, automation, and performance tuning</li>
-              <li>Mentored tech leads and managers; led performance management and talent development initiatives</li>
+              <li>Translated BRDs into functional specs and user stories; modeled 6 process workflows in PEGA Process Modeler, aligning business and engineering and eliminating rework.</li>
+              <li>Built a What-If decision-support framework for analysts to simulate risk profiles against multiple scoring models; reduced false-positive escalations, saving significant dollars in chargeback losses.</li>
+              <li>A/B tested fraud-review screen layouts; iterated on information density and action placement, improving task-completion rates across the fraud operations team.</li>
             </ul>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2018 - 2020"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Sep 2012 – Aug 2013"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Senior Manager, Application Development</h3>
-            <h4 className="vertical-timeline-element-subtitle">CVS Health – NovoLogix</h4>
+            <h3 className="vertical-timeline-element-title">Tata Consultancy Services — JPMorgan Chase</h3>
+            <h4 className="vertical-timeline-element-subtitle">Business Analyst & UX Designer — Smart Dispute Resolution Platform (Financial Services)</h4>
             <ul style={{marginTop: '10px', paddingLeft: '20px'}}>
-              <li>Owned engineering delivery for high-volume medical prior authorization platform</li>
-              <li>Defined platform architecture and roadmap; modernized legacy services to API-first microservices and Angular-based web applications</li>
-              <li>Executed cloud migration to .NET Core on Azure and modernized CI/CD pipelines</li>
-              <li>Established regression automation for critical APIs, improving reliability and throughput</li>
-            </ul>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2011 - 2018"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Engineering Leadership Roles</h3>
-            <h4 className="vertical-timeline-element-subtitle">Cognizant / Express Scripts (2011-2018), Cognizant / Sallie Mae (2008-2010), Ford Motor Company (2004-2007), Southern California Edison (2003-2004)</h4>
-            <ul style={{marginTop: '10px', paddingLeft: '20px'}}>
-              <li>Led large-scale enterprise transformation programs, architectural roadmaps, CI/CD adoption, and delivery operating models across regulated and high-volume environments</li>
+              <li>Designed wireframes, prototypes, and production screens for the dispute lifecycle (small dollar, write-off, pre-compliance); eliminated manual work-paper cases, saving $200K+ annually.</li>
+              <li>Built automated chargeback processing flows with guided, single-screen experiences; reduced agent handling time by 15 seconds per interaction.</li>
+              <li>Mapped the dispute lifecycle with stakeholders; translated findings into UI specs and acceptance criteria as the single source of truth for engineering.</li>
             </ul>
           </VerticalTimelineElement>
         </VerticalTimeline>
