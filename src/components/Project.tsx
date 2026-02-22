@@ -3,8 +3,9 @@ import cqrsImage from '../assets/images/cqrs.png';
 import aeImage from '../assets/images/AE reporting.png';
 import '../assets/styles/Project.scss';
 
-const callDeflectionImage = process.env.PUBLIC_URL + '/call-deflection.png';
-const callForecastingImage = process.env.PUBLIC_URL + '/call-forecasting.png';
+const publicUrl = process.env.PUBLIC_URL || '';
+const callDeflectionImage = `${publicUrl}/call-deflection.png`;
+const callForecastingImage = `${publicUrl}/call-forecasting.png`;
 
 function Project() {
     return(
@@ -13,8 +14,18 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
                 <img src={cqrsImage} className="zoom" alt="CQRS Architecture Diagram" width="100%"/>
-                <h2>Proactive Order Scheduling with CQRS Architecture</h2>
-                <p>Designed and delivered a CQRS-style data layer for a call center scheduling application that pre-builds scheduling records before patients call. The system surfaces and resolves gaps such as missing copays and prior authorizations so agents have complete context at first contact. The solution supports digital, SMS, and voice channels in a single flow, cutting handle time and improving patient experience. <strong>Estimated impact: $4M in operational savings and measurable gains in patient satisfaction.</strong></p>
+                <h2>Proactive Order Scheduling with Harmonized CQRS Data Architecture</h2>
+                <p>Designed and delivered a harmonized CQRS-style data layer to create a unified patient interaction store across digital, SMS, and voice channels. The architecture stitches together patient activity and order lifecycle events so context from one channel seamlessly carries into the next—ensuring a consistent, uninterrupted experience.</p>
+                <p>Built a proactive scheduling engine that pre-packages order records before patients call by aggregating CRM data, prescription history, insurance details, copay status, and prior authorization requirements into a single, ready-to-serve view. The system identifies gaps (e.g., missing insurance, unresolved copays, pending prior authorizations) and triggers targeted digital or SMS outreach to resolve issues before live agent engagement.</p>
+                <p>By surfacing complete, channel-agnostic context at first contact, agents avoid rediscovery, reduce handle time, and increase first-call resolution. Patients experience faster service and fewer repeat interactions.</p>
+                <p><strong>Impact:</strong></p>
+                <ul style={{ marginTop: '6px', paddingLeft: '20px', lineHeight: 1.6 }}>
+                    <li>~$4M in operational savings</li>
+                    <li>Reduced average handle time</li>
+                    <li>Improved first-contact resolution</li>
+                    <li>Measurable gains in patient satisfaction</li>
+                    <li>Consistent cross-channel patient experience</li>
+                </ul>
             </div>
             <div className="project">
                 <a href="https://clinical-ae-agent-bmj4hszpwa-uc.a.run.app/" target="_blank" rel="noreferrer"><img src={aeImage} className="zoom" alt="AI-Powered Adverse Event Summarization" width="100%"/></a>

@@ -15,8 +15,13 @@ function Main() {
             <a href="https://www.linkedin.com/in/venkateswaran-rajan-18a9b2105" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Venkateswaran Rajan</h1>
-          <p>Product Strategist & Technologist</p>
-          <p style={{fontSize: '0.9em', marginTop: '10px', opacity: 0.8}}>Product-minded technologist with 12+ years at the intersection of engineering, product strategy, UX, and applied AI—across healthcare and financial services.</p>
+          <p>Product Manager & Technologist</p>
+          <p style={{fontSize: '0.85em', marginTop: '8px', opacity: 0.85}}>Healthcare Technology · AI Products · CRM & Digital Transformation</p>
+          <ul style={{fontSize: '0.9em', marginTop: '12px', opacity: 0.9, paddingLeft: '20px', lineHeight: 1.6}}>
+            <li>Technologist with a product mindset and 12+ years of experience bridging engineering execution, product strategy, UX design, and applied AI across healthcare and financial services.</li>
+            <li>Proven track record defining product vision, authoring PRDs, prioritizing roadmaps, leading cross-functional teams, and delivering measurable business outcomes.</li>
+            <li>Strong background in customer discovery, KPI-driven optimization, and AI-powered workflow automation.</li>
+          </ul>
           <div className="phone-contact" style={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '12px', marginTop: '15px'}}>
             <a href="tel:979-985-7170" className="phone-number" style={{display: 'flex', alignItems: 'center', gap: '6px'}}><PhoneIcon style={{fontSize: '1.1em', color: '#ffffff'}}/> 979-985-7170</a>
             <a href="mailto:venkatrajan04@gmail.com" style={{display: 'flex', alignItems: 'center', gap: '6px', color: 'inherit', textDecoration: 'none'}}><EmailIcon style={{fontSize: '1.1em', color: '#ffffff'}}/> venkatrajan04@gmail.com</a>
