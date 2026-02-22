@@ -23,8 +23,10 @@
     color: rgb(39, 40, 34);
 }
 
-.vertical-timeline-element .vertical-timeline-element-date {
-    color: white;
+/* Date on the side: must be white in dark mode so it’s visible on dark background */
+.vertical-timeline-element .vertical-timeline-element-date,
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    color: #ffffff !important;
 }
 
 .svg-inline--fa {

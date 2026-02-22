@@ -44,9 +44,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Product Management</h3>
-                    <p>Product vision and strategy, roadmap ownership, PRDs and user stories, backlog management, stakeholder management, customer journey mapping, OKRs and KPI tracking, A/B testing, go-to-market and rollout, capability-fit analysis.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Core competencies:</span>
                         {labelsProductMgmt.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -56,9 +54,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Analytics & Optimization</h3>
-                    <p>Adobe Analytics, Tableau, and SQL for funnel analysis, clickstream tracking, operational KPI improvement, and cost savings and ROI modeling.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Core competencies:</span>
                         {labelsAnalytics.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -68,9 +64,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>Technical Acumen</h3>
-                    <p>AWS, microservices and REST APIs, React, AI/ML (RAG, NLP, LLMs), PEGA Workflow, Python, Docker, and Kubernetes.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Core competencies:</span>
                         {labelsTechnical.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
