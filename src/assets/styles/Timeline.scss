@@ -1,3 +1,14 @@
+/* Card content: must be dark on white so it’s visible (global rules set li/h3/h4 to white) */
+.vertical-timeline-element-content,
+.vertical-timeline-element-content h3,
+.vertical-timeline-element-content h4,
+.vertical-timeline-element-content p,
+.vertical-timeline-element-content ul,
+.vertical-timeline-element-content li,
+.vertical-timeline-element-content span {
+    color: rgb(39, 40, 34) !important;
+}
+
 .vertical-timeline span {
     color: white;
     font-family: 'Courier Prime', monospace;
