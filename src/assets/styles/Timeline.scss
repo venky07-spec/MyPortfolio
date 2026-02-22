@@ -1,14 +1,3 @@
-/* Broaden the timeline: more horizontal room so the date (left) panel isn’t cramped */
-#history .items-container {
-  padding-left: 14%;
-  padding-right: 14%;
-}
-@media (min-width: 1170px) {
-  .vertical-timeline.vertical-timeline--two-columns {
-    width: 95%;
-  }
-}
-
 .vertical-timeline span {
     color: white;
     font-family: 'Courier Prime', monospace;
