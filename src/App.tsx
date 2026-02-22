@@ -6,6 +6,7 @@ import {
   Project,
   Navigation,
   Footer,
+  SectionDivider,
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
@@ -30,8 +31,11 @@ function App() {
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
             <Main/>
+            <SectionDivider />
             <Expertise/>
+            <SectionDivider />
             <Timeline/>
+            <SectionDivider />
             <Project/>
         </FadeIn>
         <Footer />
