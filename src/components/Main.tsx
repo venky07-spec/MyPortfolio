@@ -15,9 +15,9 @@ function Main() {
             <a href="https://www.linkedin.com/in/venkateswaran-rajan-18a9b2105" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Venkateswaran Rajan</h1>
-          <p>Product Manager & Technologist</p>
+          <p>Product Strategist with a technology mindset</p>
           <p style={{fontSize: '1.05em', marginTop: '8px', opacity: 0.9, color: '#ffffff'}}>Healthcare Technology · AI Products · CRM & Digital Transformation</p>
-          <p style={{fontSize: '0.9em', marginTop: '12px', marginBottom: '8px', lineHeight: 1.6, color: '#ffffff'}}>Technologist with a product mindset and 12+ years of experience bridging engineering execution, product strategy, UX design, and applied AI across healthcare and financial services.</p>
+          <p style={{fontSize: '0.9em', marginTop: '12px', marginBottom: '8px', lineHeight: 1.6, color: '#ffffff'}}>Product strategist with a technology mindset and 12+ years of experience bridging engineering execution, product strategy, UX design, and applied AI across healthcare and financial services.</p>
           <p style={{fontSize: '0.9em', marginTop: '8px', marginBottom: '8px', lineHeight: 1.6, color: '#ffffff'}}>Proven track record defining product vision, authoring PRDs, prioritizing roadmaps, leading cross-functional teams, and delivering measurable business outcomes.</p>
           <p style={{fontSize: '0.9em', marginTop: '8px', lineHeight: 1.6, color: '#ffffff'}}>Strong background in customer discovery, KPI-driven optimization, and AI-powered workflow automation.</p>
           <div className="phone-contact" style={{display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '12px', marginTop: '15px'}}>
