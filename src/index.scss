@@ -32,7 +32,7 @@ a:hover {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
-p, a, h1, h2, h3, h4, h5, label, button {
+p, a, h1, h2, h3, h4, h5, label, button, ul, li {
   color: white;
   font-family: "Lato", sans-serif;
 }
@@ -143,14 +143,14 @@ p, a, h1, h2, h3, h4, h5, label, button {
   justify-content: center;
 }
 
-.light-mode {
+  .light-mode {
   background-color: #f8f9fa;
 
   .navigation-bar {
     background-color: #f8f9fa;
   }
 
-  p, a, h1, h2, h3, h4, h5, label, button {
+  p, a, h1, h2, h3, h4, h5, label, button, ul, li {
     color: #0d1116;
   }
 
