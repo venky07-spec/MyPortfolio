@@ -26,21 +26,20 @@ function Timeline() {
             <h4 style={{ marginTop: '14px', fontStyle: 'italic', fontSize: '0.95em' }}>Software Development Senior Advisor / Product Strategist — CRM Replatforming & AI Initiatives (2023 – Present)</h4>
             <ul style={{marginTop: '8px', paddingLeft: '20px'}}>
               <li>Defined product vision, go-to-market strategy, and roadmap for replatforming the order-scheduling CRM from PEGA to AWS + React across 20+ repos; owned scope, sequencing, and success metrics.</li>
-              <li>Conducted product/capability-fit assessments; recommended Google Address API over custom build for address validation, saving build cost and improving PCA experience.</li>
-              <li>Mapped end-to-end patient and PCA journeys on FigJam across digital, chat, and call-center channels; identified handoff gaps and informed the design of a channel-agnostic order-scheduling experience.</li>
+              <li>Conducted product/capability-fit assessments; recommended Google Address API over custom build for address validation, saving build cost and improving Patient Care Advocate experience.</li>
+              <li>Mapped end-to-end patient and Patient Care Advocate journeys on FigJam across digital, chat, and call-center channels; identified handoff gaps and informed the design of a channel-agnostic order-scheduling experience.</li>
               <li>Architected a harmonized data store to unify patient data across channels; enabled a consistent patient experience regardless of entry point (digital, chat, call center).</li>
               <li>Designed high-fidelity Figma prototypes for the new order-scheduling experience; used AI tools (Cursor) to convert prototypes into a working app for rapid business feedback.</li>
-              <li>Used Adobe Analytics to build PCA clickstream journeys across CRM screens; identified process bottlenecks and screen-level friction points that informed UX redesign priorities.</li>
+              <li>Used Adobe Analytics to build Patient Care Advocate clickstream journeys across CRM screens; identified process bottlenecks and screen-level friction points that informed UX redesign priorities.</li>
               <li>Scoped an AI-driven RAG solution to automate adverse-event classification and outbound communication generation; replaced manual nurse review of 200-page manufacturer contracts, reducing review time and improving accuracy.</li>
-              <li>Built personas (PCA, patient, auth user, nurse, pharmacist) and designed persona-specific workflows and screen layouts for each user type.</li>
-              <li>Drove call-deflection strategies by promoting refill-by-text enrollment; launched PCA incentive campaigns to enroll patients in text-based refills, shifting volume from call center to digital channels.</li>
+              <li>Built personas (Patient Care Advocate, patient, auth user, nurse, pharmacist) and designed persona-specific workflows and screen layouts for each user type.</li>
+              <li>Drove call-deflection strategies by promoting refill-by-text enrollment; launched Patient Care Advocate incentive campaigns to enroll patients in text-based refills, shifting volume from call center to digital channels.</li>
               <li>Authored pitch decks and ROI business cases for operations and senior product leadership; delivered capability demos and playbacks to secure buy-in for the replatform, AI initiative, and digital-deflection campaigns.</li>
-              <li>Created SOPs in Confluence for PCAs and clinicians; built working prototypes and an AI-assisted helper forum to support operational readiness and training.</li>
+              <li>Created SOPs in Confluence for Patient Care Advocates and clinicians; built working prototypes and an AI-assisted helper forum to support operational readiness and training.</li>
             </ul>
 
-            <h4 style={{ marginTop: '14px', fontStyle: 'italic', fontSize: '0.95em' }}>Software Development Engineer & Product Owner — CRM Call Center (2020 – 2023)</h4>
+            <h4 style={{ marginTop: '14px', fontStyle: 'italic', fontSize: '0.95em' }}>Software Development Engineer — CRM Call Center (2020 – 2023)</h4>
             <ul style={{marginTop: '8px', paddingLeft: '20px'}}>
-              <li>Served as de-facto product owner and UX designer; gathered requirements from business/ops, defined product direction, and set quarterly feature priorities.</li>
               <li>Maintained and prioritized the product backlog, facilitated PIPE events, sprint planning, and stakeholder demos; articulated value propositions to balance operational urgency with platform health.</li>
               <li>Partnered with clinical partners to create clinical programs, offers, questionnaires, and surveys for clinicians; improved the pharmacist experience within the CRM platform.</li>
               <li>Led quarterly feature development end-to-end—from requirements gathering through design, development, and release—across scheduling, clinical, and operational workflows.</li>
